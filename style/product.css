@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px 30px;
+  background-color: #0a5071;
+}
+nav .icon {
+  font-size: 35px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #fff;
+}
+nav ol {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+nav ol li {
+  margin: 0 2px;
+}
+nav ol li a {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+nav ol li:hover a {
+  background-color: aliceblue;
+  color: #0a5071;
+}
+.search-box {
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+}
+nav .search-box input {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 25px;
+  width: 350px;
+}
+nav .search-box span {
+  color: #0a5071;
+  font-size: 20px;
+  background-color: #fff;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: "Amazon Ember Display", sans-serif;
+}
+.box {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+#small-img {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#small-img > div {
+  margin: 10px;
+  width: 60px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid darkgrey;
+}
+#small-img img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.big-img {
+  display: flex;
+  flex: 5;
+}
+
+.big-img > div {
+  width: 600px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+.big-img > div > img {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+}
+.product-deatil {
+  flex: 6;
+}
+.product-deatil > div {
+  margin: 10px;
+}
+.checked {
+  color: orange;
+}
+.strike {
+  text-decoration: line-through;
+}
+
+.all-deatil {
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+}

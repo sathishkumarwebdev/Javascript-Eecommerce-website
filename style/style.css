@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  /* margin: 0;
+  padding: 0; */
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  position: relative;
+  padding: 15px 30px;
+  background-color: #0a5071;
+}
+
+nav .icon {
+  font-size: 35px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #fff;
+}
+nav ol {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+nav ol li {
+  margin: 0 2px;
+}
+nav ol li a {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+}
+nav ol li:hover a {
+  background-color: aliceblue;
+  color: #0a5071;
+}
+.search-box {
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+}
+nav .search-box input {
+  border: none;
+  outline: none;
+  background-color: #fff;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 25px;
+  width: 350px;
+}
+nav .search-box span {
+  color: #0a5071;
+  font-size: 20px;
+  background-color: #fff;
+  /* height: 100%; */
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+}
+#container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin-top: 5px;
+  height: 100vh;
+
+  /* font-family: "Amazon Ember", sans-serif; */
+  /* font-family: "Amazon Ember Cd RC", sans-serif;
+  font-family: "Amazon Ember Display", sans-serif;
+  font-family: "Amazon Ember Duospace", sans-serif;
+  font-family: "Amazon Ember Mono", sans-serif;
+  font-family: "Amazon Ember V2", sans-serif; */
+}
+/* div {
+  border: 1px solid black;
+} */
+.box {
+  width: 300px;
+  height: 650px;
+  margin: 10px;
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  color: #0f1111;
+  font-size: 14px;
+  line-height: 20px;
+}
+.box titleDiv {
+  padding: 5px;
+}
+.checked {
+  color: orange;
+}
